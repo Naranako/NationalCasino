@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Casino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="ageCheck">
+  <h2>18+ Потвърждение</h2>
+  <button onclick="enterSite()">Влизам (18+)</button>
+</div>
+
+<div id="casino" class="hidden">
+  <h1>🎰 DEMO CASINO</h1>
+  <p>Кредити: <span id="credits">1000</span></p>
+
+  <div class="game">
+    <h2>🎰 Slot</h2>
+    <button onclick="playSlot()">Завърти</button>
+    <p id="slotResult"></p>
+  </div>
+
+  <div class="game">
+    <h2>🎲 Dice</h2>
+    <button onclick="playDice()">Хвърли зар</button>
+    <p id="diceResult"></p>
+  </div>
+
+  <footer>
+    <p>DEMO ONLY • No real money • 18+</p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
