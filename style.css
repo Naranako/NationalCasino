@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: #fff;
+  text-align: center;
+}
+
+.hidden { display: none; }
+
+#ageCheck {
+  margin-top: 100px;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.game {
+  background: #1c1c1c;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
